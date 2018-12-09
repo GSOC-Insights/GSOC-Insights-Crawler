@@ -4,6 +4,7 @@
   "private": true,
   "main": "app.js",
   "scripts": {
+    "debug": "gulp",
     "start": "node ./bin/www",
     "test": "mocha --recursive test",
     "test:coverage": "nyc npm test",
